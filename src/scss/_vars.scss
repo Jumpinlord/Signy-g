@@ -1,11 +1,26 @@
 // если вы хотите использовать sass-переменные - удалите root
-// colors
+
 :root {
   // base
-  --font-family: "Open Sans", sans-serif;
   --content-width: 1170px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  // fonts
+  --ibm-sans: "IBM Plex Sans", sans-serif;
+  --ibm-serif: "IBM Plex Serif", serif;
+  --stolzl: "Stolzl", sans-serif;
+  // colors
+  --accent-blue: #1064E5;
+  --bg-blue: #DEEEFC;
+  --bg-grey: #E5E5E5;
+  --bg-greenish: #D8F1F0;
+  --btn-inactive: #70A2EF;
+  --primary-dark: #061224;
+  --primary-light: #FFF;
+  --text-blue: #EBF5F6;
+  --text-grey: #9BA0A7;
+  --dropdown-bg: #E2EDFB;
+  --dropdown-hover: #E2EDFB;
 
   // colors
   --light-color: #fff;
